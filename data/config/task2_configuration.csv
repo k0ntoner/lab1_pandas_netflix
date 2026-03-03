@@ -1,0 +1,16 @@
+key,value
+task_2_2.duration_threshold_minutes,120
+task_2_2.average_release_year_column,release_year
+task_2_3.exact_country_name,United States
+task_2_3.listed_in_substring,Documentaries
+task_2_4.specific_release_year,2021
+task_2_4.release_year_range_start,2015
+task_2_4.release_year_range_end,2020
+task_2_5.significant_duration_threshold_minutes,150
+task_2_5.significant_cast_size_threshold,10
+task_2_6.group_country_a,United States
+task_2_6.group_country_b,India
+task_2_6.average_value_column,release_year
+task_2_7.duration_threshold_minutes,120
+task_2_7.exclude_rating_substring,TV-Y
+task_2_7.documentary_substring,Documentaries
