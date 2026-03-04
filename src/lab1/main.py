@@ -11,7 +11,7 @@ from lab1.analysis_task2 import (
     task_2_6_group_comparison,
     task_2_7_complex_filter_and_plot,
 )
-from lab1.cleaning import clean_dataset  # твоя функція після очистки + кастінгу
+from lab1.cleaning import clean_dataset
 from lab1.config import RAW_DATASET_FILE_PATH, TASK_2_CONFIGURATION_FILE_PATH
 from lab1.io import load_csv_dataset
 from lab1.task2_configuration import load_task2_configuration

@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import pandas
 
+import matplotlib.pyplot
+
 from lab1.task2_configuration import (
     Task2_2Configuration,
     Task2_3Configuration,
@@ -296,3 +298,5 @@ def task_2_7_complex_filter_and_plot(processed_data_frame: pandas.DataFrame,
     plot_axes = releases_per_year.plot(kind="bar", title="Number of Netflix titles by release year")
     plot_axes.set_xlabel("Release year")
     plot_axes.set_ylabel("Number of titles")
+
+    matplotlib.pyplot.show()
